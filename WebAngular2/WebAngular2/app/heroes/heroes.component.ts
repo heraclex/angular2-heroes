@@ -2,7 +2,7 @@
 import {Hero} from "./hero.model";
 import { HeroService } from"./hero.service";
 // Add the RxJS Observable operators.
-import 'app/rxjs-operators';
+//import 'app/rxjs-operators';
 
 @Component({
     moduleId: module.id,
@@ -17,8 +17,8 @@ export class HeroesComponent implements OnInit {
     constructor(private heroService: HeroService) { }
 
     ngOnInit() {
-        //this.heroes = this.heroService.getHeroes();
-        this.heroService.getHeroes().subscribe(heroes => this.heroes = heroes);
+        this.heroes = this.heroService.getHeroes();
+        //this.heroService.getHeroes().subscribe(heroes => this.heroes = heroes);
     }
 
     onSelect(hero: Hero) {
