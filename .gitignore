@@ -1,0 +1,26 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/WebAngular2/.vs
+/WebAngular2/packages
+/WebAngular2/WebAngular2/bin
+/WebAngular2/WebAngular2/node_modules
+/WebAngular2/WebAngular2/obj/Debug
+/WebAngular2/WebAngular2/app/rxjs-operators.js.map
+/WebAngular2/WebAngular2/app/rxjs-operators.js
+/WebAngular2/WebAngular2/app/main.js.map
+/WebAngular2/WebAngular2/app/main.js
+/WebAngular2/WebAngular2/app/app.module.js.map
+/WebAngular2/WebAngular2/app/app.module.js
+/WebAngular2/WebAngular2/app/app.component.js.map
+/WebAngular2/WebAngular2/app/app.component.js
+/WebAngular2/WebAngular2/app/heroes/heroes.component.js.map
+/WebAngular2/WebAngular2/app/heroes/heroes.component.js
+/WebAngular2/WebAngular2/app/heroes/hero.service.js.map
+/WebAngular2/WebAngular2/app/heroes/hero.service.js
+/WebAngular2/WebAngular2/app/heroes/hero.model.js
+/WebAngular2/WebAngular2/app/heroes/hero.js.map
+/WebAngular2/WebAngular2/app/heroes/hero.js
+/WebAngular2/WebAngular2/app/heroes/hero.component.js.map
+/WebAngular2/WebAngular2/app/heroes/hero.component.js
