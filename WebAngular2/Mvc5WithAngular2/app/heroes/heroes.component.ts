@@ -16,7 +16,7 @@ export class HeroesComponent implements OnInit {
 
     ngOnInit() {
         this.heroService.getHeroes().subscribe(heroes => this.heroes = heroes.json());
-        //this.heroService.getKendoDemoApi().subscribe(res => console.log(res.json()));
+        this.heroService.getKendoDemoApi().subscribe(res => console.log(res.json()));
     }
 
     onSelect(hero: Hero) {

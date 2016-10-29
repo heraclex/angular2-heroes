@@ -1,7 +1,5 @@
 ﻿import { Injectable }     from "@angular/core";
 import { Http } from '@angular/http';
-import 'rxjs/add/operator/map'
-import { Observable } from 'rxjs/Observable';
 
 @Injectable()
 export class HeroService {
@@ -13,7 +11,7 @@ export class HeroService {
     }
 
     getKendoDemoApi() {
-        return this.http.request("http://demos.telerik.com/kendo-ui/service/Products");        
+        return this.http.get("/api/values");        
     }
     getHeroes() {
         return this.http.get("app/heroes/heroes.json");
