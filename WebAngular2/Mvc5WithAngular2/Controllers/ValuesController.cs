@@ -7,10 +7,11 @@ using System.Web.Http;
 
 namespace Mvc5WithAngular2.Controllers
 {
-    //[Authorize]
+    [Authorize]
     public class ValuesController : ApiController
     {
         // GET api/values
+        [AllowAnonymous]
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };

@@ -2,10 +2,7 @@
 
 @Component({
     selector: 'my-app',
-    template: `
-    <h1> {{title }} </h1>
-    <toh-heroes></toh-heroes>
-`
+    templateUrl: 'app/app.component.html'
 })
 export class AppComponent {
     title = 'An Angular 2 Force Awakens';

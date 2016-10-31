@@ -222,6 +222,8 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\accounts\register.component.html" />
+    <Content Include="app\app.component.html" />
     <Content Include="app\heroes\hero.component.html" />
     <Content Include="app\heroes\heroes.component.css" />
     <Content Include="app\heroes\heroes.component.html" />
@@ -265,6 +267,7 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="styles.css" />
     <Content Include="systemjs.config.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -296,6 +299,9 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="app\accounts\register.component.ts" />
+    <TypeScriptCompile Include="app\accounts\account.service.ts" />
+    <TypeScriptCompile Include="app\accounts\register.model.ts" />
     <TypeScriptCompile Include="app\app.component.ts" />
     <TypeScriptCompile Include="app\app.module.ts" />
     <TypeScriptCompile Include="app\heroes\hero.component.ts" />

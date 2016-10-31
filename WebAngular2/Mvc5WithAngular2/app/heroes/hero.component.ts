@@ -8,5 +8,4 @@ import {Hero} from "./hero.model";
 })
 export class HeroComponent {
     @Input()hero: Hero;
-    //@Input() hero: Hero;
 }

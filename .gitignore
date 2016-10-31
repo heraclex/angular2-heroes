@@ -4,8 +4,8 @@
 
 /WebAngular2/.vs
 /WebAngular2/packages
-/WebAngular2/WebAngular2/bin/
-WebAngular2/WebAngular2/obj/Debug
+/WebAngular2/WebAngular2/bin
+WebAngular2/WebAngular2/obj
 /WebAngular2/WebAngular2/node_modules
 /WebAngular2/WebAngular2/typings
 /WebAngular2/WebAngular2/app/*.js
@@ -14,10 +14,12 @@ WebAngular2/WebAngular2/obj/Debug
 /WebAngular2/WebAngular2/app/**/*.js.map
 *.log
 /WebAngular2/Mvc5WithAngular2/bin
-/WebAngular2/Mvc5WithAngular2/obj/Debug
+/WebAngular2/Mvc5WithAngular2/obj
 /WebAngular2/Mvc5WithAngular2/node_modules
 /WebAngular2/Mvc5WithAngular2/typings
 /WebAngular2/Mvc5WithAngular2/app/*.js
 /WebAngular2/Mvc5WithAngular2/app/*.js.map
 /WebAngular2/Mvc5WithAngular2/app/**/*.js
 /WebAngular2/Mvc5WithAngular2/app/**/*.js.map
+/WebAngular2/WebAccessToken/bin
+/WebAngular2/WebAccessToken/obj

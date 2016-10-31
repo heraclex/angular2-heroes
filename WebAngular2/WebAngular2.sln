@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAngular2", "WebAngular2\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc5WithAngular2", "Mvc5WithAngular2\Mvc5WithAngular2.csproj", "{5B568BA0-1079-4FA7-B025-7480CE39B8D2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAccessToken", "WebAccessToken\WebAccessToken.csproj", "{4D39966F-41B6-439D-B633-6D1C702758D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5B568BA0-1079-4FA7-B025-7480CE39B8D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B568BA0-1079-4FA7-B025-7480CE39B8D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B568BA0-1079-4FA7-B025-7480CE39B8D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D39966F-41B6-439D-B633-6D1C702758D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D39966F-41B6-439D-B633-6D1C702758D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D39966F-41B6-439D-B633-6D1C702758D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D39966F-41B6-439D-B633-6D1C702758D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
