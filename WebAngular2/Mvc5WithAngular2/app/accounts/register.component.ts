@@ -15,9 +15,7 @@ export class RegisterComponent implements OnInit {
 
     ngOnInit() {
         //this.accountService.getHeroes().subscribe(data => this.heroes = heroes.json());
-        //this.model.email = "";
-        //this.model.password = "";
-        //this.model.confirmPassword = "";
+        this.model = new RegisterModel();
     }
 
     onSubmit(model: RegisterModel) {

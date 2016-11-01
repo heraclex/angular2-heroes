@@ -7,6 +7,6 @@ export class AccountService {
     constructor(private http: Http) {}
     
     register(model: RegisterModel) {
-        return this.http.post("/api/account/register", { model: model});
+        return this.http.post("/api/account/register", model);
     }
 }
