@@ -23,3 +23,5 @@ WebAngular2/WebAngular2/obj
 /WebAngular2/Mvc5WithAngular2/app/**/*.js.map
 /WebAngular2/WebAccessToken/bin
 /WebAngular2/WebAccessToken/obj
+/WebAngular2/Mvc5WithAngular2/App_Data/aspnet-Mvc5WithAngular2-20161029034824_log.ldf
+/WebAngular2/Mvc5WithAngular2/App_Data/aspnet-Mvc5WithAngular2-20161029034824.mdf

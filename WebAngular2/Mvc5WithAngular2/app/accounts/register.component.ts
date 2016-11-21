@@ -9,8 +9,8 @@ import { AccountService } from "./account.service";
     providers: [AccountService]
 })
 export class RegisterComponent implements OnInit {
-    //@Input() model: RegisterModel;
-    model: RegisterModel;
+    @Input() model: RegisterModel;
+    //model: RegisterModel;
     constructor(private accountService: AccountService) {}
 
     ngOnInit() {
